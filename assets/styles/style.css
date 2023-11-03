@@ -37,6 +37,9 @@ main {
    display: flex;
    min-height: 80vh;
    background-color: var(--mediumBlue); 
+   flex-direction: column;
+   justify-content: space-around;
+   align-items: center;
    
 }
 
@@ -45,6 +48,7 @@ main {
     justify-content: center;
     align-items: center;
     width: 100%;
+    margin-block: 3rem;
 
 }
 
@@ -61,9 +65,65 @@ main {
     width: 100%;
 }
 
+.carousel-caption {
+    background-color: rgba(0, 0, 0, 0.568);
+}
+
 footer {
     display: flex;
     min-height: 10vh;
     background-color: var(--lightBlue);
     color: var(--text);
+}
+
+.webpage-name {
+    color: var(--text);
+    margin-top: 1rem;
+    font-weight: bold;
+}
+
+.title {
+    margin-top: 2rem;
+    color: var(--text);
+}
+
+.text-container {
+    color: var(--text);
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    margin-left: 2rem;
+    align-content: center;
+    width: 100%;
+}
+
+.text-container > a {
+    color: var(--bttnBox);
+}
+
+.small-news {
+    background-color: var(--darkestBlue);
+    display: flex;
+    padding-right: 2rem;
+    width: 90%; 
+    box-shadow: 0 3px 13px 1px rgb(0,0,0/9%);
+    margin-top: 2rem;
+}
+
+.small-news-img {    
+    height: min(20rem,22rem);
+    width: min(20rem,22rem);
+    object-fit: cover;
+    
+}
+
+.title {
+    font-size: 1.3rem;
+}
+
+.news-description {
+    font-size: 1.1rem;
+    text-align: justify;
+    margin-top: 2rem;
 }
