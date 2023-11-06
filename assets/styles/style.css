@@ -33,6 +33,11 @@ nav > a {
     color: var(--text);
 }
 
+.newsLogo {
+    width: 3rem;
+    height: auto;
+}
+
 main {
    display: flex;
    min-height: 80vh;
