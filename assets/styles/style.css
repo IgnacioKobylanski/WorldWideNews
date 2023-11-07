@@ -54,12 +54,15 @@ main {
 }
 
 .news-main {
-    justify-content: center;
+    padding: 2rem;
+    flex-direction: column;
+   align-items: center;
 
 }
 
 .news-title{
     color: var(--text);
+    font-weight: bold;
 }
 
 #carousel{
@@ -123,7 +126,23 @@ footer {
 }
 
 .text-container > a {
-    color: var(--bttnBox);
+    color: var(--darkestBlue);
+}
+
+.link-to-news {
+    background-color: var(--bttnBox);
+    
+        border: 1px solid #ccc; /* Borde alrededor del botón */
+        border-radius: 10px; /* Redondeo de las esquinas (ajusta el valor según tu preferencia) */
+        display: inline-block; /* Para que el botón no ocupe todo el ancho */
+        padding: 5px 10px; /* Relleno interno del botón */
+        text-decoration: none; /* Elimina el subrayado del enlace */
+    
+}
+
+section {
+    color: var(--text);
+    width: 90%;
 }
 
 .small-news {
@@ -152,4 +171,23 @@ footer {
     text-align: justify;
     margin-top: 2rem;
     color: var(--text);
+    margin-bottom: 2rem;
+    font-weight: bold;
 }
+
+.news-body {
+    display: flex;
+    flex-direction: column;
+    color: var(--text);
+    align-items: center;
+    justify-content: center;
+    padding-left: 5rem;
+    padding-right: 5rem;
+}
+
+.news-body-img {
+    height: 442px;
+    width: 750px;
+    padding-top: 1rem;
+}
+
