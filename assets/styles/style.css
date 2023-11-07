@@ -42,10 +42,24 @@ main {
    display: flex;
    min-height: 80vh;
    background-color: var(--mediumBlue); 
-   flex-direction: column;
+   /* flex-direction: column;
    justify-content: space-around;
-   align-items: center;
-   
+   align-items: center; */ 
+}
+
+.main-index {
+    flex-direction: column;
+   justify-content: space-around;
+   align-items: center; 
+}
+
+.news-main {
+    justify-content: center;
+
+}
+
+.news-title{
+    color: var(--text);
 }
 
 #carousel{
@@ -79,7 +93,12 @@ footer {
     min-height: 10vh;
     background-color: var(--lightBlue);
     color: var(--text);
+    justify-content: space-between;
+    padding: 1rem;
+    align-items: center;
 }
+
+
 
 .webpage-name {
     color: var(--text);
@@ -114,6 +133,7 @@ footer {
     width: 90%; 
     box-shadow: 0 3px 13px 1px rgb(0,0,0/9%);
     margin-top: 2rem;
+    margin-bottom: 2rem;
 }
 
 .small-news-img {    
@@ -131,4 +151,5 @@ footer {
     font-size: 1.1rem;
     text-align: justify;
     margin-top: 2rem;
+    color: var(--text);
 }
