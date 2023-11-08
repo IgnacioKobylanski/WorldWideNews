@@ -79,6 +79,10 @@ main {
     width: 750px;
 }
 
+.carousel-caption > p {
+    height: 100%;
+}
+
 .carousel-item > img {
     object-fit: cover;
 }
@@ -131,12 +135,11 @@ footer {
 
 .link-to-news {
     background-color: var(--bttnBox);
-    
-        border: 1px solid #ccc; /* Borde alrededor del botón */
-        border-radius: 10px; /* Redondeo de las esquinas (ajusta el valor según tu preferencia) */
-        display: inline-block; /* Para que el botón no ocupe todo el ancho */
-        padding: 5px 10px; /* Relleno interno del botón */
-        text-decoration: none; /* Elimina el subrayado del enlace */
+    border: 1px solid #ccc;
+    border-radius: 10px;
+    display: inline-block;
+    padding: 5px 10px;
+    text-decoration: none;
     
 }
 
@@ -149,7 +152,7 @@ section {
     background-color: var(--darkestBlue);
     display: flex;
     padding-right: 2rem;
-    width: 90%; 
+    width: 100%; 
     box-shadow: 0 3px 13px 1px rgb(0,0,0/9%);
     margin-top: 2rem;
     margin-bottom: 2rem;
